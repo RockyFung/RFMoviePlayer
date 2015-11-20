@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790948951BFF08E400537E98 /* nil.png in Resources */ = {isa = PBXBuildFile; fileRef = 790948921BFF08E400537E98 /* nil.png */; };
+		790948961BFF08E400537E98 /* Slider.m in Sources */ = {isa = PBXBuildFile; fileRef = 790948941BFF08E400537E98 /* Slider.m */; };
+		790948991BFF094300537E98 /* DIYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 790948981BFF094300537E98 /* DIYButton.m */; };
+		7909489C1BFF09EB00537E98 /* yinliangda.png in Resources */ = {isa = PBXBuildFile; fileRef = 7909489A1BFF09EB00537E98 /* yinliangda.png */; };
+		7909489D1BFF09EB00537E98 /* yinliangxiao.png in Resources */ = {isa = PBXBuildFile; fileRef = 7909489B1BFF09EB00537E98 /* yinliangxiao.png */; };
+		790948A31BFF0AFE00537E98 /* MoviePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 790948A21BFF0AFE00537E98 /* MoviePlayer.m */; };
 		795BBC2F1BEC4B5B002FE991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 795BBC2E1BEC4B5B002FE991 /* main.m */; };
 		795BBC321BEC4B5B002FE991 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 795BBC311BEC4B5B002FE991 /* AppDelegate.m */; };
 		795BBC351BEC4B5B002FE991 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795BBC341BEC4B5B002FE991 /* ViewController.m */; };
@@ -15,6 +21,8 @@
 		795BBC3D1BEC4B5B002FE991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795BBC3B1BEC4B5B002FE991 /* LaunchScreen.storyboard */; };
 		795BBC481BEC4B5B002FE991 /* MoviePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 795BBC471BEC4B5B002FE991 /* MoviePlayerTests.m */; };
 		795BBC531BEC4B5B002FE991 /* MoviePlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 795BBC521BEC4B5B002FE991 /* MoviePlayerUITests.m */; };
+		79DDC1BA1BED9603009BE929 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DDC1B91BED9603009BE929 /* AVFoundation.framework */; };
+		79DDC1C51BEDF5A1009BE929 /* MyActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DDC1C41BEDF5A1009BE929 /* MyActivityIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		790948921BFF08E400537E98 /* nil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nil.png; sourceTree = "<group>"; };
+		790948931BFF08E400537E98 /* Slider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slider.h; sourceTree = "<group>"; };
+		790948941BFF08E400537E98 /* Slider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slider.m; sourceTree = "<group>"; };
+		790948971BFF094300537E98 /* DIYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIYButton.h; path = ../DIYButton.h; sourceTree = "<group>"; };
+		790948981BFF094300537E98 /* DIYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DIYButton.m; path = ../DIYButton.m; sourceTree = "<group>"; };
+		7909489A1BFF09EB00537E98 /* yinliangda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yinliangda.png; sourceTree = "<group>"; };
+		7909489B1BFF09EB00537E98 /* yinliangxiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yinliangxiao.png; sourceTree = "<group>"; };
+		790948A11BFF0AFE00537E98 /* MoviePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayer.h; sourceTree = "<group>"; };
+		790948A21BFF0AFE00537E98 /* MoviePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayer.m; sourceTree = "<group>"; };
 		795BBC2A1BEC4B5B002FE991 /* MoviePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		795BBC2E1BEC4B5B002FE991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		795BBC301BEC4B5B002FE991 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +68,9 @@
 		795BBC4E1BEC4B5B002FE991 /* MoviePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		795BBC521BEC4B5B002FE991 /* MoviePlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerUITests.m; sourceTree = "<group>"; };
 		795BBC541BEC4B5B002FE991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DDC1B91BED9603009BE929 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		79DDC1C31BEDF5A1009BE929 /* MyActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyActivityIndicatorView.h; sourceTree = "<group>"; };
+		79DDC1C41BEDF5A1009BE929 /* MyActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyActivityIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79DDC1BA1BED9603009BE929 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,11 +99,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		790948911BFF08E400537E98 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				790948921BFF08E400537E98 /* nil.png */,
+				790948931BFF08E400537E98 /* Slider.h */,
+				790948941BFF08E400537E98 /* Slider.m */,
+			);
+			name = Slider;
+			path = ../Slider;
+			sourceTree = "<group>";
+		};
 		795BBC211BEC4B5B002FE991 = {
 			isa = PBXGroup;
 			children = (
+				79DDC1B91BED9603009BE929 /* AVFoundation.framework */,
 				795BBC2C1BEC4B5B002FE991 /* MoviePlayer */,
 				795BBC461BEC4B5B002FE991 /* MoviePlayerTests */,
+				795BBC2D1BEC4B5B002FE991 /* Supporting Files */,
 				795BBC511BEC4B5B002FE991 /* MoviePlayerUITests */,
 				795BBC2B1BEC4B5B002FE991 /* Products */,
 			);
@@ -105,11 +139,13 @@
 				795BBC311BEC4B5B002FE991 /* AppDelegate.m */,
 				795BBC331BEC4B5B002FE991 /* ViewController.h */,
 				795BBC341BEC4B5B002FE991 /* ViewController.m */,
+				79DDC1C31BEDF5A1009BE929 /* MyActivityIndicatorView.h */,
+				79DDC1C41BEDF5A1009BE929 /* MyActivityIndicatorView.m */,
 				795BBC361BEC4B5B002FE991 /* Main.storyboard */,
 				795BBC391BEC4B5B002FE991 /* Assets.xcassets */,
 				795BBC3B1BEC4B5B002FE991 /* LaunchScreen.storyboard */,
 				795BBC3E1BEC4B5B002FE991 /* Info.plist */,
-				795BBC2D1BEC4B5B002FE991 /* Supporting Files */,
+				795BBC601BEC4C2F002FE991 /* MoviePlayer */,
 			);
 			path = MoviePlayer;
 			sourceTree = "<group>";
@@ -120,6 +156,7 @@
 				795BBC2E1BEC4B5B002FE991 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = MoviePlayer;
 			sourceTree = "<group>";
 		};
 		795BBC461BEC4B5B002FE991 /* MoviePlayerTests */ = {
@@ -138,6 +175,20 @@
 				795BBC541BEC4B5B002FE991 /* Info.plist */,
 			);
 			path = MoviePlayerUITests;
+			sourceTree = "<group>";
+		};
+		795BBC601BEC4C2F002FE991 /* MoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				790948A11BFF0AFE00537E98 /* MoviePlayer.h */,
+				790948A21BFF0AFE00537E98 /* MoviePlayer.m */,
+				7909489A1BFF09EB00537E98 /* yinliangda.png */,
+				7909489B1BFF09EB00537E98 /* yinliangxiao.png */,
+				790948911BFF08E400537E98 /* Slider */,
+				790948971BFF094300537E98 /* DIYButton.h */,
+				790948981BFF094300537E98 /* DIYButton.m */,
+			);
+			path = MoviePlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +298,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				795BBC3D1BEC4B5B002FE991 /* LaunchScreen.storyboard in Resources */,
+				7909489C1BFF09EB00537E98 /* yinliangda.png in Resources */,
+				790948951BFF08E400537E98 /* nil.png in Resources */,
+				7909489D1BFF09EB00537E98 /* yinliangxiao.png in Resources */,
 				795BBC3A1BEC4B5B002FE991 /* Assets.xcassets in Resources */,
 				795BBC381BEC4B5B002FE991 /* Main.storyboard in Resources */,
 			);
@@ -273,9 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79DDC1C51BEDF5A1009BE929 /* MyActivityIndicatorView.m in Sources */,
 				795BBC351BEC4B5B002FE991 /* ViewController.m in Sources */,
+				790948A31BFF0AFE00537E98 /* MoviePlayer.m in Sources */,
 				795BBC321BEC4B5B002FE991 /* AppDelegate.m in Sources */,
 				795BBC2F1BEC4B5B002FE991 /* main.m in Sources */,
+				790948961BFF08E400537E98 /* Slider.m in Sources */,
+				790948991BFF094300537E98 /* DIYButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MoviePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RockyFung.MoviePlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MoviePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RockyFung.MoviePlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,6 +561,7 @@
 				795BBC591BEC4B5B002FE991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		795BBC5A1BEC4B5B002FE991 /* Build configuration list for PBXNativeTarget "MoviePlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +570,7 @@
 				795BBC5C1BEC4B5B002FE991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		795BBC5D1BEC4B5B002FE991 /* Build configuration list for PBXNativeTarget "MoviePlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +579,7 @@
 				795BBC5F1BEC4B5B002FE991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

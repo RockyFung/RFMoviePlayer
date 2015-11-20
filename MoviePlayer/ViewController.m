@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MoviePlayer.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    MoviePlayer *view = [[MoviePlayer alloc] initWithFrame:self.view.bounds URL:[NSURL URLWithString:@"http://baobab.cdn.wandoujia.com/14468618701471.mp4"]];
+    [self.view addSubview:view];
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
